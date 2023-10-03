@@ -26,7 +26,8 @@ At first, my code to create this new synthetic/non-synthetic overdose column did
 
 [The OG Raw Data](https://drive.google.com/file/d/1Qswv3RdZ2BHac2_OcMbZJ0VOQSgV47CF/view?usp=share_link)
 [The Munged Data](https://drive.google.com/file/d/1LvhWEgZJDE23lnZHng_FjLHByq5QBNDO/view?usp=share_link)
-[The Spreadsheet](https://drive.google.com/file/d/1HasiMkSyZ2fKaK6JCLL5xojXmyZBRhbg/view?usp=share_link)
+[The Spreadsheet](https://drive.google.com/file/d/1rX5edOgiyaLdXrd5dIk7_-cFBDtNGmrK/view?usp=share_link)
+*The spreadsheet doesn't show up in its entirety in just the preview. It has to be downloaded to see the changes I added.
 
 ## Aggregate Statistics
 I obtained the total number of synthetic opioid overdoses within the dataset by a conditional COUNTIF formula, looking for "Yes" in the synthetic/semi-synthetic column. I did the same for non-synthetic overdoses with the same function, but with "No". Then, using the same formula, I obtained the count of "Data Values" in the indicator column within the dataset, which did not represent individual overdose instances. With this foundation, I then calculated the percent of synthetic opioid overdoses and non-synthetic. I found the minimum and maximum number of drug overdose deaths in the US total by utilizing a conditional MINIFS & MAXIFS function.
